@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+    
+    <video poster="imagens/imagem-para-video-control.png" width="500" controls>
+        <source src="midias/video-agua.ogv" type="video/ogv">
+        <source src="midias/video-agua.mkv" type="video/mkv">
+        <source src="midias/video-agua.webm" type="video/webm">
+        <source src="midias/video-agua.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução do vídeo</p>
+    </video>
+
+    <h2>Inserindo vídeos do Youtube - exemplo: Vídeo do Gustavo Guanabara</h2>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=HVLhVtun204YhwQZ"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <h2>Podemos importar também vídeos do Vimeo</h2>
+
+    <iframe src="https://player.vimeo.com/video/961460192?h=401d48f654&autoplay=1&portrait=0" width="640" height="346"
+        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>
