@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes Externas</title>
+  </head>
+  <style>
+    @font-face {
+      font-family: "sky";
+      src: url(fonts/Sky\ Landing.otf) format("opentype");
+      font-weight: normal;
+      font-style: normal;
+      /* 
+        tipos de format()
+        - opentype
+        - truetype
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - sgv
+      */
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      font-family: "sky";
+      font-size: 3em;
+    }
+  </style>
+  <body>
+    <h1>Olá, Mundo!</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio distinctio
+      ipsam totam cupiditate qui debitis, consequuntur magnam quos vitae ipsa
+      provident quaerat, exercitationem harum facilis consectetur assumenda ex
+      quisquam pariatur.
+    </p>
+  </body>
+</html>
