@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping tags</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #a3a3a3;
+        margin: 0px;
+      }
+      header {
+        background-color: #f0f0f0;
+        padding: 20px;
+        width: 650px;
+        margin: 10px auto;
+      }
+
+      header > h1 {
+        color: #b7dbe9;
+        text-align: center;
+        text-shadow: 1px 2px 3px black;
+      }
+
+      nav {
+        margin: auto;
+      }
+
+      nav > a {
+        text-decoration: none;
+        color: #000;
+        margin: 25px;
+        outline: 1px solid black;
+        padding: 10px;
+        display: inline-block;
+      }
+
+      nav > a:hover {
+        color: aqua;
+      }
+
+      nav > a:active {
+        color: aquamarine;
+      }
+
+      section {
+        background-color: #f0f0f0;
+        margin-bottom: 10px;
+        width: 300px;
+        display: inline-block;
+      }
+
+      section > article {
+        background-color: #adadad;
+      }
+
+      section > h2 {
+        background-color: #b4ffa5;
+      }
+
+      #assuntos {
+        border: 1px solid gray;
+      }
+
+      #noticias {
+        border: 1px solid gray;
+        height: 256px;
+      }
+      main {
+        background-color: #f0f0f0;
+        padding: 20px;
+        width: 650px;
+        margin: 10px auto;
+      }
+      footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 3px;
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+        <h2>Assuntos</h2>
+        <article>
+          <h3>Assunto 1</h3>
+          <p>
+            Conteúdo do assunto 1 Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Veritatis natus fuga quasi tempora non consectetur
+            nihil, qui amet ipsam magni, eligendi esse! Dolor aut a error saepe
+            maxime beatae quas!
+          </p>
+          <aside>escripo por ninguem</aside>
+        </article>
+      </section>
+      <section id="noticias">
+        <h2>Notícias</h2>
+        <article>
+          <h3>Meu artigo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+            dignissimos aliquid laborum eaque ab ducimus reiciendis nam
+            necessitatibus adipisci saepe maxime, illo asperiores officia quas
+            eos fuga dolor sapiente unde!
+          </p>
+          <aside>
+            <p>Escrito por Dorival</p>
+          </aside>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023</p>
+    </footer>
+  </body>
+</html>
