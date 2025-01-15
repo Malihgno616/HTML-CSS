@@ -6,28 +6,48 @@
     <title>Modelo de Caixas</title>
     <style>
       h1 {
+        /* block-level */
+
         height: 300px;
         width: 300px;
         background-color: #d8d8d8;
-        border-width: 10px;
-        border-style: solid; /* double, dotted, groove, dashed*/
+        border: 10px solid darkslateblue;
+        padding: 10px;
+        margin: 20px auto 40px auto;
+        outline: 5px dashed salmon;
+
+        /* double, dotted, groove, dashed*/
+        /* border-width: 10px;
         border-color: darkslategray;
+        border-style: solid;  */
 
         /* shorthand border: width style color */
         /* shorthand outline: width style color */
         /* shorthand padding: top right bottom left */
         /* shorthand margin: top right bottom left */
 
-        padding-top: 10px;
+        /* margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px; */
+
+        /* outline-width: 5px;
+        outline-style: dashed;
+        outline-color: blue; */
+
+        /* margin: auto; */
+
+        /* padding-top: 10px;
         padding-right: 10px;
         padding-bottom: 10px;
-        padding-left: 10px;
+        padding-left: 10px; */
       }
       a {
+        /* inline-level */
+        display: inline-block;
         border: 5px;
         border-style: solid;
         border-color: darkslategray;
-
         padding-top: 10px;
         padding-right: 10px;
         padding-bottom: 10px;
@@ -38,7 +58,7 @@
   <body>
     <h1>Exemplo de caixa block-level</h1>
     <p>
-      Parágrafos também são exemplos de box-level, mais
+      Parágrafos também são exemplos de box-level, mas os
       <a href="#">links são exemplo de inline-level.</a> Vamos ver como tudo
       isso funciona.
     </p>
