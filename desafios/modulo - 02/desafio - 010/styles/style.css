@@ -55,6 +55,7 @@ header > p {
 nav {
   background-color: var(--cor5);
   padding: 20px;
+  text-align: center;
   box-shadow: 0px 1px 10px #0000008c;
 }
 
@@ -89,18 +90,47 @@ main h1 {
   font-family: var(--fonte-android);
 }
 
+main h2 {
+  font-family: var(--fonte-android);
+  color: var(--cor4);
+  font-size: 1.3em;
+  background-image: linear-gradient(to left, var(--cor0)75%, transparent);
+  text-indent: 20px;
+} 
+
+main p {
+  margin: 15px 0px;
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 1.1em;
+  line-height: 2em;
+}
+
+main strong {
+  font-weight: bold;
+  color: var(--cor4);
+}
+
+main a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--cor5);
+  background-color: var(--cor1);
+}
+
+main a:hover {
+  text-decoration: underline;
+  color: var(--cor4);
+}
+
 main img {
   width: 100%;
 }
 
 main img.pequena {
-  width: 50%;
+  max-width: 400px;
   display: block;
   margin: auto;
-}
-
-main h2 {
-  font-family: var(--fonte-android);
 }
 
 footer {
