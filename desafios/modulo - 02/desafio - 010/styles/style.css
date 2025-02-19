@@ -48,16 +48,34 @@ nav {
 }
 
 main {
+  min-width: 300px;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 30px;
   background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 main h1 {
   color: var(--cor3);
-  font-family: var(--fonte-destaque);
+  font-family: var(--fonte-android);
+}
+
+main img {
+  width: 100%;
+}
+
+main img.pequena {
+  width: 50%;
+  display: block;
+  margin: auto;
 }
 
 main h2 {
-  font-family: var(--fonte-destaque);
+  font-family: var(--fonte-android);
 }
 
 footer {
