@@ -94,9 +94,9 @@ main h2 {
   font-family: var(--fonte-android);
   color: var(--cor4);
   font-size: 1.3em;
-  background-image: linear-gradient(to left, var(--cor0)75%, transparent);
+  background-image: linear-gradient(to left, var(--cor0) 75%, transparent);
   text-indent: 20px;
-} 
+}
 
 main p {
   margin: 15px 0px;
@@ -133,7 +133,46 @@ main img.pequena {
   margin: auto;
 }
 
+aside {
+  background-color: var(--cor2);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+}
+
+a.externo::after {
+  content: "\00A0\1F517";
+}
+
+aside > h3 {
+  background-color: var(--cor4);
+  color: white;
+  padding: 10px;
+  margin: -10px -10px 0px -10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+  list-style-type: "\1F5F8\00A0";
+  list-style-position: inside;
+  columns: 2;
+}
+
 footer {
   background-color: var(--cor5);
   color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+footer > p > a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: var(--cor1);
 }
