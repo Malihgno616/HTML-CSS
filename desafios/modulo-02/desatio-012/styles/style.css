@@ -1,12 +1,24 @@
 @charset "UTF-8";
 
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+:root {
+  --font1: Verdana, Geneva, Tahoma, sans-serif;
+  --font2: "Fredericka the Great", serif;
+  --font3: "Kaushan Script", cursive;
+}
+
 * {
   margin: 0px;
   padding: 0px;
+  font-size: 1em;
 }
 
 html,
 body {
+  font-family: var(--font1);
   min-height: 100vh;
   background-color: #fffef2;
 }
@@ -19,12 +31,15 @@ header {
 }
 
 header > h1 {
+  font-family: var(--font2);
   padding-top: 35px;
   font-variant: small-caps;
+  font-size: 7vw;
 }
 
 header > p {
   padding-top: 35px;
+  font-size: 2vw;
 }
 
 header a,
@@ -40,10 +55,12 @@ footer a:hover {
 }
 
 section {
+  font-family: var(--font3);
   padding-top: 10vh;
   padding-bottom: 10vh;
-  line-height: 3rem;
+  line-height: 2em;
   padding-left: 35px;
+  font-size: 3.75vw;
 }
 
 section.normal {
@@ -57,7 +74,10 @@ section.image {
 }
 
 section.image > p {
-  width: 400px;
+  box-shadow: 10px 10px 15px 3px rgba(0, 0, 0, 0.267);
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
   background-color: rgb(22, 22, 22);
 }
 
